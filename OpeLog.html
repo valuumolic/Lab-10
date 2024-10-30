@@ -12,6 +12,7 @@
     let tieneLicencia = false;
 
     let puedeConducir = esMayorDeEdad && tieneLicencia;
+    let tieneLicencia = esMayorDeEdad || tieneLicencia;
 
     console.log("¿Puede conducir?", puedeConducir);
 
